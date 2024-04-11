@@ -97,7 +97,7 @@ function getPolynom(...nums) {
   if (nums.length === 0) {
     return null;
   }
-  return function (x) {
+  return function abs(x) {
     let result = 0;
     let power = nums.length - 1;
     for (let i = 0; i < nums.length; i += 1) {
